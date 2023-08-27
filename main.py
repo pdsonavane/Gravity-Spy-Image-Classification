@@ -8,7 +8,7 @@ from util import classify, set_background
 
 #Command line: python -m streamlit run main.py
 ##NOTE:
-set_background(r"C:\Users\prasa\Downloads\Spartificial Assignment Data\3d-abstract-space-sky-with-stars-nebula_1048-8320.webp")
+set_background('./3d-abstract-space-sky-with-stars-nebula_1048-8320.webp')
 
 # set title
 st.title('Gravity Spy Image Classification')
@@ -20,7 +20,7 @@ st.header('Please upload an image to classify')
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
 # load classifier
-modelresnet = tf.keras.models.load_model(r"C:\Users\prasa\Desktop\ML Models\gspyrsntl-20230816T183607Z-001\gspyrsntl")
+modelresnet = tf.keras.models.load_model('./gspyrsntl-20230816T183607Z-001/gspyrsntl')
 
 # load class names
 class_names =  ['Wandering Line', 'Power Line', 'Tomte', 'Helix', 'Light Modulation', 'No Glitch', 'Whistle', '1400 Ripples', 'Scratchy', 'Scattered Light', 'Air Compressor', 'Repeating Blips', 'Paired Doves', 'Violin Mode', 'Blip', 'Low Frequency Lines', 'Chirp', 'Extremely Loud', 'Low Frequency Burst', 'Could not be identified', 'Koi Fish', '1080 Lines']
