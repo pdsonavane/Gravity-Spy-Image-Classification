@@ -32,7 +32,7 @@ def load_model(model_path):
     modelresnet = tf.keras.models.load_model(model_path)
     return modelresnet
 
-modelresnet = load_model(./gspyrsntl-20230816T183607Z-001/gspyrsntl)
+modelresnet = load_model('./gspyrsntl-20230816T183607Z-001/gspyrsntl')
 
 # load class names
 class_names =  ['Wandering Line', 'Power Line', 'Tomte', 'Helix', 'Light Modulation', 'No Glitch', 'Whistle', '1400 Ripples', 'Scratchy', 'Scattered Light', 'Air Compressor', 'Repeating Blips', 'Paired Doves', 'Violin Mode', 'Blip', 'Low Frequency Lines', 'Chirp', 'Extremely Loud', 'Low Frequency Burst', 'Could not be identified', 'Koi Fish', '1080 Lines']
