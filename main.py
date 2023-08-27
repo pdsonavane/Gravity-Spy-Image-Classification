@@ -20,13 +20,6 @@ st.header('Please upload an image to classify')
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
 # load classifier
-'''
-@st.cache
-def model_load():
-    return tf.keras.models.load_model('./gspyrsntl-20230816T183607Z-001/gspyrsntl')
-
-modelresnet = model_load()
-'''
 @st.cache_resource
 def load_model(model_path):
     modelresnet = tf.keras.models.load_model(model_path)
