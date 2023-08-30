@@ -11,7 +11,7 @@ from util import classify, set_background
 set_background('./3d-abstract-space-sky-with-stars-nebula_1048-8320.webp')
 
 # set title
-st.title('Gravity Spy Image Classification')
+st.title('Gravity Spy Image Classification\nFollow the following link for the dataset which was used to train this model: https://www.kaggle.com/datasets/tentotheminus9/gravity-spy-gravitational-waves')
 
 # set header
 st.header('Please upload an image to classify')
