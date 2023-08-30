@@ -8,7 +8,7 @@ from util import classify, set_background
 
 #Command line: python -m streamlit run main.py
 ##NOTE:
-set_background('./3d-abstract-space-sky-with-stars-nebula_1048-8320.webp')
+set_background('./3ZvACTT9rGdKxpjrkMU97L.jpg')
 
 # set title
 st.title('Gravity Spy Image Classification')
