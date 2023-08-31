@@ -7,7 +7,7 @@ import numpy as np
 from util import classify, set_background
 
 ##NOTE:
-set_background('./ligoTA.webp')
+set_background('./Triple_1300Lede.jpg')
 
 # set title
 st.title('Gravity Spy Image Classification')
