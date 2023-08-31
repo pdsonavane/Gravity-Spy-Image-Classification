@@ -8,7 +8,7 @@ from util import classify, set_background
 
 #Command line: python -m streamlit run main.py
 ##NOTE:
-set_background('./3ZvACTT9rGdKxpjrkMU97L.jpg')
+set_background('./02-sept_ligo.webp')
 
 # set title
 st.title('Gravity Spy Image Classification')
