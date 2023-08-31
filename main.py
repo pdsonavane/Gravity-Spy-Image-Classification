@@ -6,9 +6,8 @@ import numpy as np
 
 from util import classify, set_background
 
-#Command line: python -m streamlit run main.py
 ##NOTE:
-set_background('./02-sept_ligo.webp')
+set_background('./ligoTA.webp')
 
 # set title
 st.title('Gravity Spy Image Classification')
