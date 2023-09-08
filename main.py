@@ -13,7 +13,7 @@ set_background('./Triple_1300Lede.jpg')
 st.title(':violet[Gravity Spy Image Classification]')
 
 # set header
-st.header(':orange[Please upload an image to classify]\nClick the following link to access the dataset which was used to train this model for more examples: https://www.kaggle.com/datasets/tentotheminus9/gravity-spy-gravitational-waves')
+st.header('Please upload an image to classify\nClick the following link to access the dataset which was used to train this model for more examples: https://www.kaggle.com/datasets/tentotheminus9/gravity-spy-gravitational-waves')
 
 # upload file
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
